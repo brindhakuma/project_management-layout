@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+      .footer{
+        margin-top: 350px;
+      }
+      a{
+        text-decoration: none;
+        color: black;
+      }
+       .search-icon {
+  position: absolute;
+  left: 8px;
+  top: 30%;
+  transform: translateY(-50%);
+  font-size: 14px;
+  opacity: 0.6;
+}
+.search-box {
+  position: relative;
+}
+
+.search-box input {
+  height: 28px;
+  width: 180px;
+  padding: 4px 8px 4px 30px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 12px;
+}
+
+    </style>
+</head>
+<body>
+
+    <header class="top-navbar">
+  <div class="left">
+  <a href="home.html">  <span class="app-name"><img src="images/Screenshot 2026-02-06 113011.png">TaskMaster Co</span></a>
+  </div>
+
+  <div class="right">
+    <div class="search-box">
+      <span class="search-icon">🔍</span>
+      <input type="text" placeholder="Search">
+    </div>
+
+    <div class="icons">
+      <img src="images/image.png">
+      <img src="images/Depth 7, Frame 0.jpg" style="border-radius: 50%;width: 40px;height: 40px;">
+    </div>
+  </div>
+</header>
+
+
+<div class="app">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <h3 class="logo"><img src="images/Depth 6, Frame 1.jpg" style="border-radius: 50%;width: 40px;height: 40px;"> ProjectFlow</h3>
+    <ul>
+      <li class="active"><a href="dashboard.html"> <img src="images/Screenshot 2026-02-06 130749.png" style="width: 30px;height: 30px;"> Dashboard</a></li>
+      <li><a href="projects.html"> <img src="images/Screenshot 2026-02-06 130806.png" style="width: 30px;height: 30px;"> Projects</a></li>
+      <li><a href="task.html"> <img src="images/Screenshot 2026-02-06 130813.png" style="width: 30px;height: 30px;"> Tasks</a></li>
+      <li><a href="team.html"> <img src="images/Screenshot 2026-02-06 130818.png" style="width: 30px;height: 30px;"> Team</a></li>
+      <li><a href="report.html"> <img src="images/Screenshot 2026-02-06 130822.png" style="width: 30px;height: 30px;"> Reports</a></li>
+      <li><a href="settings.html"> <img src="images/Screenshot 2026-02-06 130828.png" style="width: 30px;height: 30px;"> Settings</a></li>
+    </ul>
+    <p class="help"><img src="images/Screenshot 2026-02-06 130836.png" style="width: 30px;height: 30px;"> Help and Docs</p>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main">
+    
+    <!-- Top Bar -->
+    <header class="topbar">
+      <h2>Dashboard</h2>
+      <div class="top-actions">
+        <input type="text" placeholder="Search">
+        <span class="profile">👤</span>
+      </div>
+    </header>
+
+    <p class="welcome">Welcome back, Sarah</p>
+
+    <!-- Overview Cards -->
+    <div class="cards">
+      <div class="card">
+        <p>Active Projects</p>
+        <h3>4</h3>
+      </div>
+      <div class="card">
+        <p>Tasks Completed</p>
+        <h3>28</h3>
+      </div>
+      <div class="card">
+        <p>Upcoming Deadlines</p>
+        <h3>3</h3>
+      </div>
+    </div>
+
+    <!-- Task Status -->
+    <div class="section">
+      <h4>Task Status</h4>
+      <table>
+        <tr>
+          <th>Status</th>
+          <th>Count</th>
+        </tr>
+        <tr>
+          <td>To Do</td>
+          <td>12</td>
+        </tr>
+        <tr>
+          <td>In Progress</td>
+          <td>8</td>
+        </tr>
+        <tr>
+          <td>Done</td>
+          <td>28</td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- Recent Activity -->
+    <div class="section">
+      <h4>Recent Activity</h4>
+      <ul class="activity">
+        <li><img src="images/Screenshot 2026-02-06 125322.png"> Project Alpha: Design Review – 10:00 AM</li>
+        <li><img src="images/Screenshot 2026-02-06 115146.png"> Project Beta: Development Phase – 2:00 PM</li>
+        <li><img src="images/Screenshot 2026-02-06 115236.png"> Project Gamma: Client Meeting – 4:00 PM</li>
+      </ul>
+    </div>
+
+    <!-- Project Approval -->
+    <div class="section">
+      <h4>Project Approval</h4>
+
+      <div class="approval-cards">
+        <div class="approval-card">
+          <h5>E-Commerce Website</h5>
+          <p>Submitted by Akash on dec 12 full e-commerce solutions with payment interactions.</p>
+          <div class="btns">
+            <button class="approve">Approve</button>
+            <button class="reject">Reject</button>
+          </div>
+        </div>
+
+        <div class="approval-card">
+          <h5>E-Commerce Website</h5>
+          <p>Submitted by Akash on dec 12 full e-commerce solutions with payment interactions.</p>
+          <div class="btns">
+            <button class="approve">Approve</button>
+            <button class="reject">Reject</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Admin Access -->
+    <div class="admin-box">
+      <h4>🔒 Admin Access</h4>
+      <p>You have full administrative privileges.</p>
+      <button>Manage User</button>
+    </div>
+
+  </main>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="footer">
+
+ <div class="footer-links">
+    <a href="#"><img src="images/Screenshot 2026-02-06 183400.png" style="width: 30px;"> TaskMaster</a>
+    <a href="#">Home</a>
+    <a href="#">Features</a>
+    <a href="#">Solutions</a>
+    <a href="#">Resources</a>
+    <a href="#">Pricing</a>
+    <a href="#">Contact</a>
+  </div>
+<img src="images/Screenshot 2026-02-06 183345.png">
+  <p>© 2024 TaskMaster. All rights reserved.</p>
+
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+      .btn-login{
+        margin-top: 50px;
+        background: linear-gradient(to right,skyblue,rgb(0, 110, 255));
+         border: none;
+
+         color: white;
+         font-weight: 550;
+      }
+      a{
+        text-decoration: none;
+        color: white;
+        font-weight: 550;
+       
+      }
+    </style>
+
+</head>
+<body>
+    <header class="navbar">
+    <h2 class="logo"><img src="images/Screenshot 2026-02-06 113011.png"> TaskMaster Co</h2>
+
+    <nav>
+      <ul class="nav-links">
+       <li><a href="home.html">Home</a></li>
+        <li><a href="features.html">Features</a></li>
+        <li><a href="solution.html">Solutions</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="nav-buttons">
+    <a href="start.html">  <button class="btn-login">Get Started</button></a>
+     <a href="login.html"> <button class="btn-login">Login</button></a>
+    </div>
+  </header>
+
+
+
+
+
+<div class="whole">
+ <div class="signup-wrapper">
+    <h2>Create Your Free Account</h2>
+
+    <form class="signup-form">
+      <label>Full Name</label>
+      <input type="text" id="name"  placeholder="Enter your full name" />
+
+      <label>Work Email</label>
+      <input type="email" id="email" placeholder="Enter your work email" />
+
+      <label>Password</label>
+      <input type="password" id="password" placeholder="Enter your password" />
+
+      <label>Company Name</label>
+      <input type="text" id="company" placeholder="Enter your company name" />
+
+      <label>Role</label>
+      <select id="role">
+        <option>Select your role</option>
+        <option>Admin</option>
+        <option>Developer</option>
+        <option>Manager</option>
+        <option>Other</option>
+      </select>
+
+<div class="btn-login">
+<a href="dashboard.html">Create Free Account</a>
+</div>
+    
+    </form>
+
+    <p class="login-text">
+      Already have an account? <a href="#">Login</a>
+    </p>
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <footer class="footer">
+
+  <div class="footer-links">
+    <a href="#"><img src="images/Screenshot 2026-02-06 183400.png" style="width: 30px;"> TaskMaster</a>
+    <a href="#">Home</a>
+    <a href="#">Features</a>
+    <a href="#">Solutions</a>
+    <a href="#">Resources</a>
+    <a href="#">Pricing</a>
+    <a href="#">Contact</a>
+  </div>
+<img src="images/Screenshot 2026-02-06 183345.png">
+  <p>© 2024 TaskMaster. All rights reserved.</p>
+
+</footer>
+<script>
+  const nameInput = document.getElementById("name");
+  const emailInput = document.getElementById("email");
+  const passwordInput = document.getElementById("password");
+  const companyInput = document.getElementById("company");
+  const roleSelect = document.getElementById("role");
+
+  nameInput.addEventListener("focus", function () {
+    nameInput.value = "Brindha Kumar";
+  });
+
+  emailInput.addEventListener("focus", function () {
+    emailInput.value = "brindha@gmail.com";
+  });
+
+  passwordInput.addEventListener("focus", function () {
+    passwordInput.value = "123456";
+  });
+
+  companyInput.addEventListener("focus", function () {
+    companyInput.value = "TaskMaster Pvt Ltd";
+  });
+
+  roleSelect.addEventListener("focus", function () {
+    roleSelect.value = "Developer";
+  });
+</script>
+
+</body>
+</html>
